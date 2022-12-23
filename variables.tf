@@ -5,7 +5,7 @@ variable "resource_group_name" {
   
 }
 
-variable "reaource_group_location" {
+variable "resource_group_location" {
     default = "Uk South"
     type = string
     description = "azure resource group location"   
