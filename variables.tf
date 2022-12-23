@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-    default = "variable-rg"
+    default = "variable-rg99"
     type = string
     description = "azure resource group name"
   
