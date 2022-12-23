@@ -14,8 +14,3 @@ provider "azurerm" {
    features {}
 }
 
-resource "azurerm_resource_group" "variables" {
-    name = var.resource_group_name
-    location = var.reaource_group_location
-  
-}
