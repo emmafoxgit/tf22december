@@ -13,3 +13,9 @@
 provider "azurerm" {
    features {}
 }
+
+resource "azurerm_resource_group" "variables" {
+    name = "variable-rg"
+    location = "Uk South"
+  
+}
