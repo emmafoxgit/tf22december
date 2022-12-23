@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "variables" {
-    name = "variable-rg"
-    location = "Uk South"
+    name = var.resource_group_name
+    location = var.reaource_group_location
   
 }
